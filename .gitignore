@@ -1,0 +1,16 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CConverterAPI/bin/Debug/net7.0
+/CConverterAPI/obj
+*.user
+/CConverterClinet/bin/Debug/net7.0-windows
+/CConverterClinet/obj
+/Controllers/bin/Debug/net7.0
+/Controllers/obj
+/Core/bin/Debug/net7.0
+/Core/obj
+/Dtos/bin/Debug/net7.0
+/Services/bin/Debug/net7.0
