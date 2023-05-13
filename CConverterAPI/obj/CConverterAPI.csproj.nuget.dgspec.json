@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\CConverterAPI\\CConverterAPI.csproj": {}
+  },
+  "projects": {
+    "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\CConverterAPI\\CConverterAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\CConverterAPI\\CConverterAPI.csproj",
+        "projectName": "CConverterAPI",
+        "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\CConverterAPI\\CConverterAPI.csproj",
+        "packagesPath": "C:\\Users\\juandario\\.nuget\\packages\\",
+        "outputPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\CConverterAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juandario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Controllers\\Controllers.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Controllers\\Controllers.csproj"
+              },
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj"
+              },
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj"
+              },
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Services\\Services.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Controllers\\Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Controllers\\Controllers.csproj",
+        "projectName": "Controllers",
+        "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Controllers\\Controllers.csproj",
+        "packagesPath": "C:\\Users\\juandario\\.nuget\\packages\\",
+        "outputPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juandario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj"
+              },
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\juandario\\.nuget\\packages\\",
+        "outputPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juandario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj",
+        "projectName": "Dtos",
+        "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\Dtos.csproj",
+        "packagesPath": "C:\\Users\\juandario\\.nuget\\packages\\",
+        "outputPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juandario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\juandario\\.nuget\\packages\\",
+        "outputPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juandario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj": {
+                "projectPath": "A:\\Proyectos\\.NET\\CurrencyConverter\\CurrencyConverter\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
