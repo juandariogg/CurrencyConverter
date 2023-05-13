@@ -12,5 +12,7 @@
 /Controllers/obj
 /Core/bin/Debug/net7.0
 /Core/obj
-/Dtos/bin/Debug/net7.0
-/Services/bin/Debug/net7.0
+/Dtos/bin/
+/Services/bin/
+/Dtos/obj/
+/Services/obj
