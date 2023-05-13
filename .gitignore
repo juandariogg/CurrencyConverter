@@ -16,3 +16,5 @@
 /Services/bin/
 /Dtos/obj/
 /Services/obj
+/Tests/bin
+/Tests/obj
